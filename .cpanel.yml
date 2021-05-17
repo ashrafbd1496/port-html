@@ -2,4 +2,4 @@
 deployment:
   tasks:
     - export DEPLOYPATH=/home/idevitco/public_html/port-html
-    - /bin/cp * $DEPLOYPATH
+    - /bin/cp -a * $DEPLOYPATH
